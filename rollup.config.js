@@ -1,11 +1,11 @@
-const path = require('path');
-const babel = require('rollup-plugin-babel');
-const nodeResolve = require('@rollup/plugin-node-resolve');
-const pkg = require('./package.json');
+import path from 'path';
+import babel from 'rollup-plugin-babel';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+import pkg from './package.json';
 
 const extensions = ['.js', '.ts'];
 
-const resolve = function(...args) {
+const resolve = function (...args) {
   return path.resolve(__dirname, ...args);
 };
 
@@ -25,4 +25,4 @@ module.exports = {
       extensions,
     }),
   ],
-};
+}; 

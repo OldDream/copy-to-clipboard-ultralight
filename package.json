@@ -2,6 +2,10 @@
   "name": "crude-copy",
   "version": "0.0.1",
   "description": "Copy text to clipboard, only support modern browser.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OldDream/crude-copy.git"
+  },
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

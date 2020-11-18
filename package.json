@@ -1,0 +1,27 @@
+{
+  "name": "crude-copy",
+  "version": "0.0.1",
+  "description": "Copy text to clipboard, only support modern browser.",
+  "main": "/dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clipboard"
+  ],
+  "author": "Old_dream",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "typescript": "^4.0.5"
+  },
+  "browserslist": [
+    "iOS >= 8",
+    "Android >= 4.4.4"
+  ]
+}

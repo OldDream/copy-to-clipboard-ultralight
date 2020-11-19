@@ -1,3 +1,3 @@
-declare function crudeCopy(sourceStr: string): boolean;
+declare function ultralightCopy(sourceStr: string): boolean;
 
-export default crudeCopy;
+export default ultralightCopy;

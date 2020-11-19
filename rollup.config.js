@@ -14,7 +14,8 @@ const config = [{
   input: resolve('./src/index.ts'),
   output: {
     file: resolve('./', pkg.main), // 为了项目的统一性，这里读取 package.json 中的配置项
-    format: 'esm',
+    format: 'umd',
+    name: 'ultralightCopy',
   },
   plugins: [
     nodeResolve({

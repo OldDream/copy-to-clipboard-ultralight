@@ -4,7 +4,7 @@ A 🚀 ultralight tool that can copy a string to system clipboard.
 
 ⚠️ Only support modern browser.
 
-🔑 Support Typescript.
+🔑 UMD module.
 
 
 
@@ -19,4 +19,20 @@ We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this
 ### API
 
 `function ultralightCopy(sourceStr: string): boolean`
+
+
+
+### DEMO
+
+Check `demo.html` in Git for more detail.
+
+```js
+document.querySelector('#test').addEventListener('click',()=> {
+      if (ultralightCopy('This is test string.')) {
+        alert('success !')
+      } else {
+        alert('copy failed !')
+      }
+    })
+```
 

@@ -4,7 +4,7 @@ A 🚀 ultralight tool that can copy a string to system clipboard.
 
 ⚠️ Only support modern browser.
 
-🔑 UMD module.
+🔑 UMD module, offer .d.ts file to support Typescript.
 
 
 

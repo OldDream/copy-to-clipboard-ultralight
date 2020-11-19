@@ -1,6 +1,6 @@
 {
-  "name": "crude-copy",
-  "version": "0.0.3",
+  "name": "copy-to-clipbord-ultralight",
+  "version": "0.0.1",
   "description": "Copy text to clipboard, only support modern browser.",
   "repository": {
     "type": "git",

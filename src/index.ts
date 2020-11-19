@@ -1,4 +1,4 @@
-function crudeCopy(sourceStr: string): boolean {
+function ultralightCopy(sourceStr: string): boolean {
   if (document.execCommand('copy')) {
     const inputDom = document.createElement('input');
     inputDom.setAttribute('readonly', 'readonly');
@@ -14,4 +14,4 @@ function crudeCopy(sourceStr: string): boolean {
   }
 }
 
-export default crudeCopy 
+export default ultralightCopy 

@@ -1,6 +1,6 @@
 # copy-to-clipbord-ultralight
 
-A 🚀 ultralight tool that can copy a string to system clipboard.
+A 🚀 ultralight tool  ( **872Byte** )  that can copy a string to system clipboard.
 
 ⚠️ Only support modern browser.
 

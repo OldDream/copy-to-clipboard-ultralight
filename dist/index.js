@@ -8,6 +8,7 @@
     if (document.execCommand('copy')) {
       var inputDom = document.createElement('input');
       inputDom.setAttribute('readonly', 'readonly');
+      inputDom.setAttribute('style', 'position: fixed; top:0; left:0; opacity:0;');
       inputDom.setAttribute('value', sourceStr);
       document.body.appendChild(inputDom);
       inputDom.setSelectionRange(0, sourceStr.length);

@@ -6,9 +6,7 @@ import pkg from './package.json';
 
 const extensions = ['.ts'];
 
-const resolve = function (...args) {
-  return path.resolve(__dirname, ...args);
-};
+const resolve = (...args) => path.resolve(...args); // 封装path.resolve，少写一点代码
 
 const config = [
   {

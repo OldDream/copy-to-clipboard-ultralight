@@ -6,11 +6,11 @@ import pkg from './package.json';
 
 const extensions = ['.ts'];
 
-const resolve = (...args) => path.resolve(...args); // 封装path.resolve，少写一点代码
+const resolve = (...args) => path.resolve(...args); // 适应不同环境，封装path.resolve，少写一点代码
 
 const config = [
   {
-    // 编译typescript
+    // 编译typescript, 生成 js 文件
     input: resolve('./src/index.ts'),
     output: {
       file: resolve('./', pkg.main), // 读取 package.json 中的main作为入口。

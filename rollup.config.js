@@ -1,6 +1,7 @@
 import path from 'path';
 import babel from 'rollup-plugin-babel';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
+import { terser } from "rollup-plugin-terser";
 import dts from 'rollup-plugin-dts';
 import pkg from './package.json';
 
@@ -25,6 +26,7 @@ const config = [
         exclude: 'node_modules/**',
         extensions,
       }),
+      terser()
     ],
   },
   {

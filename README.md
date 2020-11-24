@@ -11,7 +11,7 @@ A 🚀 ultralight tool  ( **872Byte** )  that can copy a string to system clipbo
 ### Install
 
 ```
-npm i -s  copy-to-clipbord-ultralight
+npm i copy-to-clipbord-ultralight
 ```
 
 

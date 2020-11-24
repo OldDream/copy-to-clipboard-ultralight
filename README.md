@@ -26,6 +26,9 @@ npm i copy-to-clipbord-ultralight
 
 Check `demo.html` in Git for more detail.
 
+Import as module or use `<script src="https://cdn.jsdelivr.net/npm/copy-to-clipbord-ultralight@1.0.0/dist/index.js"></script>`.
+
+
 ```js
 import ultralightCopy from 'copy-to-clipbord-ultralight';
 

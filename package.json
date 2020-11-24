@@ -1,6 +1,6 @@
 {
   "name": "copy-to-clipbord-ultralight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copy text to clipboard, only support modern browser.",
   "repository": {
     "type": "git",

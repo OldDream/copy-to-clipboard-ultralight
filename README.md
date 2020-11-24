@@ -8,11 +8,11 @@ A 🚀 ultralight tool  ( **872Byte** )  that can copy a string to system clipbo
 
 
 
-### Compatibility
+### Install
 
-We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this tool only support modern browser like Chrome, Edge, safari, etc.
-
- You can check compatibility here https://caniuse.com/?search=execCommand
+```
+npm i -s  copy-to-clipbord-ultralight
+```
 
 
 
@@ -27,12 +27,24 @@ We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this
 Check `demo.html` in Git for more detail.
 
 ```js
+import ultralightCopy from 'copy-to-clipbord-ultralight';
+
 document.querySelector('#test').addEventListener('click',()=> {
-      if (ultralightCopy('This is test string.')) {
-        alert('success !')
-      } else {
-        alert('copy failed !')
-      }
-    })
+   if (ultralightCopy('This is test string.')) {
+     alert('success !')
+   } else {
+     alert('copy failed !')
+   }
+})
 ```
+
+
+
+### Compatibility
+
+We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this tool only support modern browser like Chrome, Edge, safari, etc.
+
+ You can check compatibility here https://caniuse.com/?search=execCommand
+
+
 

@@ -26,11 +26,10 @@ npm i copy-to-clipbord-ultralight
 
 Check `demo.html` in Git for more detail.
 
-Import as module or use `<script src="https://cdn.jsdelivr.net/npm/copy-to-clipbord-ultralight@1.0.0/dist/index.js"></script>`.
-
 
 ```js
 import ultralightCopy from 'copy-to-clipbord-ultralight';
+// const ultralightCopy = require('copy-to-clipbord-ultralight') // import as commonJS module
 
 document.querySelector('#test').addEventListener('click',()=> {
    if (ultralightCopy('This is test string.')) {
@@ -39,6 +38,21 @@ document.querySelector('#test').addEventListener('click',()=> {
      alert('copy failed !')
    }
 })
+```
+
+
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipbord-ultralight@1.0.0/dist/index.js"></script>
+  <script>
+    document.querySelector('#test').addEventListener('click',()=> {
+      if (ultralightCopy('This is test string.')) {
+        alert('success !')
+      } else {
+        alert('copy failed !')
+      }
+    })
+  </script>
 ```
 
 

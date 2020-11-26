@@ -25,6 +25,6 @@ describe('on page load', () => {
 });
 
 afterAll(async () => {
-  browser.close();
+  await browser.close();
   await stopServer();
 });

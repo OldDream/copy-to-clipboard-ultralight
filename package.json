@@ -10,7 +10,13 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
+    "server": "ws -p 3000 --static.index demo.html",
     "test": "jest"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./setupTests.js"
+    ]
   },
   "keywords": [
     "clipboard"
@@ -24,6 +30,11 @@
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@types/jest": "^26.0.15",
     "jest": "^26.6.3",
+    "jest-dev-server": "^4.4.0",
+    "jest-puppeteer": "^4.4.0",
+    "local-web-server": "^4.2.1",
+    "puppeteer": "^2.1.1",
+    "regenerator-runtime": "^0.13.7",
     "rollup": "^2.33.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-dts": "^1.4.14",

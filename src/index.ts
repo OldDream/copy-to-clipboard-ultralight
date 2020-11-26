@@ -2,7 +2,6 @@ function ultralightCopy(sourceStr: string): boolean {
   const d = document // rudeuce size
   if (d.execCommand('copy')) {
     const inputDom = d.createElement('input');
-    // const s = inputDom.setAttribute
     inputDom.setAttribute('readonly', 'readonly');
     inputDom.setAttribute('style', 'position: fixed; top:0; left:0; opacity:0;');
     inputDom.setAttribute('value', sourceStr);

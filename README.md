@@ -45,16 +45,16 @@ document.querySelector('#test').addEventListener('click',()=> {
 
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/copy-to-clipbord-ultralight@1.0.0/dist/index.js"></script>
-  <script>
-    document.querySelector('#test').addEventListener('click',()=> {
-      if (ultralightCopy('This is test string.')) {
-        alert('success !')
-      } else {
-        alert('copy failed !')
-      }
-    })
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipbord-ultralight"></script>
+<script>
+  document.querySelector('#test').addEventListener('click',()=> {
+    if (ultralightCopy('This is test string.')) {
+      alert('success !')
+    } else {
+      alert('copy failed !')
+    }
+  })
+</script>
 ```
 
 

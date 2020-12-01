@@ -1,4 +1,4 @@
-# copy-to-clipbord-ultralight
+# copy-to-clipboard-ultralight
 
 ![](https://travis-ci.org/OldDream/copy-to-clipbord-ultralight.svg?branch=main)
 

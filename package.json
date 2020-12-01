@@ -1,10 +1,10 @@
 {
   "name": "copy-to-clipboard-ultralight",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Copy text to clipboard, only support modern browser.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:OldDream/copy-to-clipbord-ultralight.git"
+    "url": "git@github.com:OldDream/copy-to-clipboard-ultralight.git"
   },
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",

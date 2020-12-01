@@ -1,6 +1,6 @@
 # copy-to-clipboard-ultralight
 
-![](https://travis-ci.org/OldDream/copy-to-clipboard-ultralight.svg?branch=main)
+fix![](https://travis-ci.org/OldDream/copy-to-clipbord-ultralight.svg?branch=main)
 
 A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
 

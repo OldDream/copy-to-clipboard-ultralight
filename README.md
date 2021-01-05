@@ -1,6 +1,6 @@
-# copy-to-clipboard-ultralight
+# copy-to-clipbord-ultralight
 
-fix![](https://travis-ci.org/OldDream/copy-to-clipboard-ultralight.svg?branch=main)
+![](https://travis-ci.org/OldDream/copy-to-clipboard-ultralight.svg?branch=main)
 
 A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
 
@@ -13,7 +13,7 @@ A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipbo
 ### Install
 
 ```
-npm i copy-to-clipboard-ultralight
+npm i copy-to-clipbord-ultralight
 ```
 
 

@@ -63,7 +63,7 @@ document.querySelector('#test').addEventListener('click',()=> {
 
 We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this tool only support modern browser like Chrome, Edge, safari, etc.
 
- You can check compatibility here https://caniuse.com/?search=execCommand
+ You can check compatibility here https://caniuse.com/?search=execCommand%3A%20copy%20command
 
 
 

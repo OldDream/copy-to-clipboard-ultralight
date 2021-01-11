@@ -19,7 +19,9 @@
     ]
   },
   "keywords": [
-    "clipboard"
+    "clipboard",
+    "copy",
+    "browser"
   ],
   "author": "Old_dream",
   "license": "ISC",

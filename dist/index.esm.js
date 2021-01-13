@@ -1,0 +1,1 @@
+function e(e){var t=document;if(t.execCommand("copy")){var o=t.createElement("input");return o.setAttribute("readonly","readonly"),o.setAttribute("style","position: fixed; top:0; left:0; opacity:0;"),o.setAttribute("value",e),t.body.appendChild(o),o.setSelectionRange(0,e.length),o.select(),t.execCommand("copy"),t.body.removeChild(o),!0}return!1}export default e;

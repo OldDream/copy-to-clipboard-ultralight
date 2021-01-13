@@ -4,10 +4,11 @@
   "description": "Copy text to clipboard, only support modern browser.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:OldDream/copy-to-clipboard-ultralight.git"
+    "url": "git@github.com:OldDreamwwwwwww/copy-to-clipboard-ultralight.git"
   },
   "main": "dist/index.js",
-  "types": "./dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c",
     "server": "ws -p 3000 --static.index demo.html",

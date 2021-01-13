@@ -6,7 +6,7 @@ A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipbo
 
 ⚠️ Only support modern browser.
 
-🔑 UMD module, offer .d.ts file to support Typescript.
+🔑 UMD module & ESModule, offer .d.ts file to support Typescript.
 
 
 

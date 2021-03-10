@@ -1,4 +1,4 @@
-# copy-to-clipbord-ultralight
+# copy-to-clipboard-ultralight
 
 ![](https://travis-ci.org/OldDream/copy-to-clipboard-ultralight.svg?branch=main)
 
@@ -13,7 +13,7 @@ A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipbo
 ### Install
 
 ```
-npm i copy-to-clipbord-ultralight
+npm i copy-to-clipboard-ultralight
 ```
 
 
@@ -30,8 +30,8 @@ Check `demo.html` in Git for more detail.
 
 
 ```js
-import ultralightCopy from 'copy-to-clipbord-ultralight';
-// const ultralightCopy = require('copy-to-clipbord-ultralight') // import as commonJS module
+import ultralightCopy from 'copy-to-clipboard-ultralight';
+// const ultralightCopy = require('copy-to-clipboard-ultralight') // import as commonJS module
 
 document.querySelector('#test').addEventListener('click',()=> {
    if (ultralightCopy('This is test string.')) {
@@ -45,7 +45,7 @@ document.querySelector('#test').addEventListener('click',()=> {
 
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/copy-to-clipbord-ultralight"></script>
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-ultralight"></script>
 <script>
   document.querySelector('#test').addEventListener('click',()=> {
     if (ultralightCopy('This is test string.')) {

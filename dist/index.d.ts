@@ -1,3 +1,3 @@
-declare function ultralightCopy(sourceStr: string): boolean;
+declare function ultralightCopy(sourceStr?: string): boolean;
 
 export default ultralightCopy;

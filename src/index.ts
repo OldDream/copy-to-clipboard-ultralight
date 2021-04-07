@@ -1,4 +1,4 @@
-function ultralightCopy(sourceStr: string): boolean {
+function ultralightCopy(sourceStr: string = ""): boolean {
   const d = document // rudeuce size
   if (d.execCommand('copy')) {
     const inputDom = d.createElement('input');

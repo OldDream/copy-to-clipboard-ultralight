@@ -1,6 +1,7 @@
 # copy-to-clipboard-ultralight
 
 ![](https://travis-ci.org/OldDream/copy-to-clipboard-ultralight.svg?branch=main)
+[![](https://data.jsdelivr.com/v1/package/npm/copy-to-clipboard-ultralight/badge)](https://www.jsdelivr.com/package/npm/copy-to-clipboard-ultralight)
 
 A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
 

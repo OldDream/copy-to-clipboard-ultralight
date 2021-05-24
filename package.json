@@ -22,7 +22,9 @@
   "keywords": [
     "clipboard",
     "copy",
-    "browser"
+    "browser",
+    "typescript",
+    "ts"
   ],
   "author": "Old_dream",
   "license": "ISC",

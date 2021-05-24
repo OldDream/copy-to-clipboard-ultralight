@@ -1,7 +1,7 @@
 {
   "name": "copy-to-clipboard-ultralight",
-  "version": "1.0.9",
-  "description": "Copy text to clipboard, only support modern browser.",
+  "version": "1.0.10",
+  "description": "Copy text to clipboard, support TypeScript.",
   "repository": {
     "type": "git",
     "url": "git@github.com:OldDream/copy-to-clipboard-ultralight.git"

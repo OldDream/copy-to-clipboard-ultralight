@@ -27,6 +27,8 @@ npm i copy-to-clipboard-ultralight
 
 ### DEMO
 
+[Online demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
+
 Check `demo.html` in Git for more detail.
 
 

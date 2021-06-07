@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <title>ultralightCopy - demo</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ultralightCopy - demo</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/a11y-dark.min.css">
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-ultralight"></script>
 </head>
+
 <body>
   <button id="test">Click me to copy!</button>
-  <!-- <script src="./dist/index.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-ultralight"></script>
-  <script>
-    document.querySelector('#test').addEventListener('click',()=> {
+  <div id="code">
+    <pre>
+      <code class="language-javascript">document.querySelector('#test').addEventListener('click', () => {
       if (ultralightCopy('This is test string.')) {
         alert('success !')
       } else {
         alert('copy failed !')
       }
+    })</code>
+    </pre>
+  </div>
+
+  <script>
+    document.querySelector('#test').addEventListener('click', () => {
+      if (ultralightCopy('This is test string.')) {
+        alert('Success! Try to paste.')
+      } else {
+        alert('Copy failed! This Browser is not supported!')
+      }
     })
+    hljs.highlightAll();
   </script>
 </body>
+
 </html>

@@ -12,7 +12,14 @@
 
 <body>
   <button id="test">Click me to copy!</button>
-  <div id="code">
+  <div>
+    <pre>
+      <code class="language-html">
+        &lt;button id="test"&gt;Click me to copy!&lt;/button&gt;
+      </code>
+    </pre>
+  </div>
+  <div>
     <pre>
       <code class="language-javascript">document.querySelector('#test').addEventListener('click', () => {
       if (ultralightCopy('This is test string.')) {

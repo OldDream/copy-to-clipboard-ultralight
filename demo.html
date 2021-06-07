@@ -8,10 +8,17 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/a11y-dark.min.css">
   <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-ultralight"></script>
+  <style>
+    .buttonDiv {
+      white-space:pre-wrap;
+    }
+  </style>
 </head>
 
 <body>
-  <button id="test">Click me to copy!</button>
+  <div class="buttonDiv">
+    <span>Try this:      </span><button id="test">Click me to copy!</button>
+  </div>
   <div>
     <pre>
       <code class="language-html">

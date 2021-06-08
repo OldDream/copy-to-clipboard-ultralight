@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ultralightCopy - demo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .buttonDiv {
+      white-space:pre-wrap;
+    }
+  </style>
+  <script src="./dist/index.js"></script>
+</head>
+
+<body>
+  <div class="buttonDiv">
+    <button id="test">Click me to copy!</button>
+  </div>
+
+  <script>
+    document.querySelector('#test').addEventListener('click', () => {
+      if (ultralightCopy('This is test string.')) {
+        alert('success !')
+      } else {
+        alert('copy failed!')
+      }
+    })
+  </script>
+</body>
+
+</html>

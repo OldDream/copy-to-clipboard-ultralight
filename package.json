@@ -11,7 +11,7 @@
   "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c",
-    "server": "ws -p 3000 --static.index demo.html",
+    "server": "ws -p 3000 --static.index test.html",
     "test": "jest"
   },
   "jest": {

@@ -22,19 +22,21 @@
   <div>
     <pre>
       <code class="language-html">
-        &lt;button id="test"&gt;Click me to copy!&lt;/button&gt;
+&lt;button id="test"&gt;Click me to copy!&lt;/button&gt;
       </code>
     </pre>
   </div>
   <div>
     <pre>
-      <code class="language-javascript">document.querySelector('#test').addEventListener('click', () => {
-      if (ultralightCopy('This is test string.')) {
-        alert('success !')
-      } else {
-        alert('copy failed !')
-      }
-    })</code>
+      <code class="language-javascript">
+document.querySelector('#test').addEventListener('click', () => {
+  if (ultralightCopy('This is test string.')) {
+    alert('Success! Try to paste.')
+  } else {
+    alert('Copy failed! This Browser is not supported!')
+  }
+})
+    </code>
     </pre>
   </div>
 

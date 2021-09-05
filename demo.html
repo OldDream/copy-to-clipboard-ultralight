@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>ultralightCopy - demo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/a11y-dark.min.css" />
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-ultralight"></script>
+    <style>
+      .buttonDiv {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
 
-<head>
-  <title>ultralightCopy - demo</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/a11y-dark.min.css">
-  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-ultralight"></script>
-  <style>
-    .buttonDiv {
-      white-space:pre-wrap;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="buttonDiv">
-    <span>Try this:      </span><button id="test">Click me to copy!</button>
-  </div>
-  <div>
-    <pre>
+  <body>
+    <div class="buttonDiv"><span>Try this: </span><button id="test">Click me to copy!</button></div>
+    <div>
+      <pre>
       <code class="language-html">
 &lt;button id="test"&gt;Click me to copy!&lt;/button&gt;
       </code>
     </pre>
-  </div>
-  <div>
-    <pre>
+    </div>
+    <div>
+      <pre>
       <code class="language-javascript">
-document.querySelector('#test').addEventListener('click', () => {
-  if (ultralightCopy('This is test string.')) {
-    alert('Success! Try to paste.')
-  } else {
-    alert('Copy failed! This Browser is not supported!')
-  }
-})
+        document.querySelector('#test').addEventListener('click', function () {
+          if (ultralightCopy('This is test string.')) {
+            alert('Success! Try to paste.');
+          } else {
+            alert('Copy failed! This Browser is not supported!');
+          }
+        });
     </code>
     </pre>
-  </div>
+    </div>
 
-  <script>
-    document.querySelector('#test').addEventListener('click', () => {
-      if (ultralightCopy('This is test string.')) {
-        alert('Success! Try to paste.')
-      } else {
-        alert('Copy failed! This Browser is not supported!')
-      }
-    })
-    hljs.highlightAll();
-  </script>
-</body>
-
+    <script>
+      document.querySelector('#test').addEventListener('click', function () {
+        if (ultralightCopy('This is test string.')) {
+          alert('Success! Try to paste.');
+        } else {
+          alert('Copy failed! This Browser is not supported!');
+        }
+      });
+      hljs.highlightAll();
+    </script>
+  </body>
 </html>

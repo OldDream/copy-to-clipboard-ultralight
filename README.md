@@ -64,9 +64,9 @@ document.querySelector('#test').addEventListener('click',()=> {
 
 ### Compatibility
 
-We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this tool only support modern browser like Chrome, Edge, safari, etc.
+We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this tool only support browser like Chrome, Edge, safari, IE >= 10, etc.
 
- You can check compatibility here https://caniuse.com/?search=execCommand%3A%20copy%20command
+ I suggest you to run [Online demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html) in your target browser, or check compatibility here https://caniuse.com/?search=execCommand%3A%20copy%20command
 
 
 

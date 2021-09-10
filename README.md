@@ -5,7 +5,7 @@
 
 A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
 
-⚠️ Only support modern browser.
+⚠️ Wide browser support, for example IE >= 10.
 
 🔑 UMD module & ESModule, offer .d.ts file to support Typescript.
 

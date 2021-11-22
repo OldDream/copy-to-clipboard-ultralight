@@ -5,11 +5,11 @@
 
 Language : English | [中文](./README.zh-CN.md)
 
-A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
+🚀 A ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
 
 💫 Wide browser support, for example IE >= 9.
 
-📦 UMD module & ESModule, offer .d.ts file to support Typescript.
+📦 UMD module & ESModule, offer .d.ts file to support Typescript.git
 
 
 

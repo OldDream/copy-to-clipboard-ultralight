@@ -1,19 +1,20 @@
 # copy-to-clipboard-ultralight
-
+ 
 ![](https://travis-ci.org/OldDream/copy-to-clipboard-ultralight.svg?branch=main)
 [![](https://data.jsdelivr.com/v1/package/npm/copy-to-clipboard-ultralight/badge)](https://www.jsdelivr.com/package/npm/copy-to-clipboard-ultralight)
 
-Language : English | [中文](./README.zh-CN.md)
-
-A 🚀 ultralight tool  ( **596Byte** )  that can copy a string to system clipboard.
-
-💫 Wide browser support, for example IE >= 9.
-
-📦 UMD module & ESModule, offer .d.ts file to support Typescript.
+Language : [English]((./README.md)) | 中文
 
 
+🚀 体积小（ <1kb ）.
 
-### Install
+💫 支持广（ >= IE10 ）.
+
+📦 格式多（UMD module + ESModule + Typescript）.
+
+
+
+### 安装
 
 ```
 npm i copy-to-clipboard-ultralight
@@ -31,7 +32,7 @@ npm i copy-to-clipboard-ultralight
 
 [Online demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
 
-Check `demo.html` in Git for more detail.
+具体代码详见git中的 `demo.html` .
 
 
 ```js
@@ -64,11 +65,13 @@ document.querySelector('#test').addEventListener('click',()=> {
 
 
 
-### Compatibility
+### 兼容性
 
-We would try to use `document.execCommand('copy')` with **NO FALLBACK**. So this tool only support browser like Chrome, Edge, safari, IE >= 10, etc.
+主要使用下面这个方法 `document.execCommand('copy')`, 兼容性极佳，号称可支持到IE9（我没试过）。
 
- I suggest you to run [Online demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html) in your target browser, or check compatibility here https://caniuse.com/?search=execCommand%3A%20copy%20command
+ 可在目标浏览器中运行 [在线 demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html) 进行实测。
+ 
+ 或者去Can I Use 看看： https://caniuse.com/?search=execCommand%3A%20copy%20command
 
 
 

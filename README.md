@@ -29,9 +29,9 @@ npm i copy-to-clipboard-ultralight
 
 ### DEMO
 
-[Online demo1](https://codesandbox.io/s/copy-to-clipboard-ultralight-fzx6s?file=/index.html)
+[CodeSandBox online demo](https://codesandbox.io/s/copy-to-clipboard-ultralight-demo-g1851)
 
-[Online demo2](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
+[Online demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
 
 Check `demo.html` in Git for more detail.
 

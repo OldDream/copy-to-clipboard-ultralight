@@ -29,7 +29,7 @@ npm i copy-to-clipboard-ultralight
 
 ### DEMO
 
-[Online demo1](https://codesandbox.io/s/blissful-noyce-fzx6s?file=/index.html)
+[Online demo1](https://codesandbox.io/s/copy-to-clipboard-ultralight-fzx6s?file=/index.html)
 
 [Online demo2](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
 

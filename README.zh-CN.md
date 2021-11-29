@@ -30,7 +30,9 @@ npm i copy-to-clipboard-ultralight
 
 ### DEMO
 
-[Online demo](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
+[Online demo1](https://codesandbox.io/s/blissful-noyce-fzx6s?file=/index.html)
+
+[Online demo2](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
 
 具体代码详见git中的 `demo.html` .
 

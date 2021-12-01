@@ -22,7 +22,7 @@ describe('Test in browser', () => {
       await dialog.dismiss(); // 关闭弹窗
     });
     await page.click('#test'); // 点击按钮
-    expect(alertMsg).toBe('success !'); // 设置测试预期结果。
+    expect(alertMsg).toBe('Success! Try to paste.'); // 设置测试预期结果。
   }, 6000);
 });
 

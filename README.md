@@ -9,7 +9,7 @@ Language : English | [中文](./README.zh-CN.md)
 
 💫 Wide browser support, for example IE >= 9.
 
-📦 UMD module & ESModule, offer .d.ts file to support Typescript.git
+📦 UMD module & ESModule, offer .d.ts file to support Typescript.
 
 
 

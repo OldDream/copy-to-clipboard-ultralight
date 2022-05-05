@@ -30,7 +30,7 @@ npm i copy-to-clipboard-ultralight
 
 ### DEMO
 
-[CodeSandBox online demo](https://codesandbox.io/s/copy-to-clipboard-ultralight-demo-g1851)
+[CodeSandBox online demo](https://codesandbox.io/s/fzx6s?file=/index.html)
 
 [Online demo2](https://www.huangyn.icu/temp-html/copy-to-clipboard-ultralight-demo.html)
 
